@@ -26,30 +26,40 @@
                 <a href="Reach Out">Reach Out</a>
             </li>
         </ul>
-    </nav>
-    
+    </nav>  
     <header>
 
     <!-- hero/jumbotron -->
-    <section>
-        <div>
+    <section class="hero">
+        <div class="hero-form">
             <h3>Get Started Today</h3>
             <p>Fill out this form and one of our trainers will schefule a consult</p>
             <!-- Add Sign Up "CTA" form element -->
             <form>
-                <label for="name">Enter full name</label>
+                <label for="name">Enter Full Name</label>
                 <input type="text" placeholder="Your Name" name="name" id="name">
-                <label for="email">Enter email address</label>
-                <input type="text" placeholder="Email Address" name="email" id="m">
-                <label for="Enter a telephone nuber"></label>
-                <input type="text" placeholder="Phone Nuber" name="tel" id="tel">
+
+                <label for="Email">Enter Your Email</label>
+                <input type="text" placeholder="Email Address" name="Email" id="Email">
+
+                <label for="Phone No">Enter Your Phone No</label>
+                <input type="text" placeholder="Your Ph No" name="Ph" id="Ph">
                 <p>
-                    Have you worked out with a traitextner before?
-                    <input type="radio" name="trainer-confirm" id="trainer-confir-yes">
-                    <label for="trainer-yed">Yes</label>
-                    <input type="radio" name="trainer-confir" id="trainer-no">
+                    Have You worked out with A trainer before?
+                    <input type="radio" name="trainer confirm" id="trainer-yes">
+                    <label for="trainer-yes">Yes</label>
+
+                    <input type="radio" name="trainer confirm" id="trainer-no">
                     <label for="trainer-no">No</label>
+                </p>             
+                <p>
+                    <label for="checkbox">I acknowledge I am at least 18 year of age</label>
+                    <input type="checkbox" name="age confirm" id="checkbox">
                 </p>
+
+                <button type="submit">Get Running!</button>
+            </form>
+        </div>
 <!--"what we do" section-->
  <section><h2>What we do</h2></section>
 
@@ -66,11 +76,11 @@
  <!--footer-->
     <footer>
         <h2>Made with Loves by Run-Buddy</h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br>
+            &copy;2024 Run-Buddy,Inc.
+        </div>
     </footer>
 
-    <div>
-        <a href="#">Read Our Privacy Policy</a><br>
-        &copy;2024 Run-Buddy,Inc.
-    </div>
 </body>
 </html>
